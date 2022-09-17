@@ -1,5 +1,6 @@
+//Note: In this you should only have routes defined. logic part should be put inside seperate folder i.e controller.
 import express from 'express';
-
+//below all the functions are being imported from controller folder
 import {
   createUser,
   getUsers,
