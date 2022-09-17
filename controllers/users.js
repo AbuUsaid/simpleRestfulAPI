@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 
 let users = [];
-
+//Note: We export all the functions from here i.e the logical part so that it can be used by the routes.
 export const getUsers = (req, res) => {
   res.send(users);
 };
